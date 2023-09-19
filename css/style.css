@@ -140,9 +140,9 @@ body{
 }
 .pie img{
     padding: 2rem; 
-    margin-left: 2rem;
-    height: 25rem;
-    width: 20rem;
+    margin-left: 1rem;
+    height: 20rem;
+    width: 14rem;
 }
 .pie section{
     background-color: var(--blanco);
@@ -229,6 +229,7 @@ body{
     border: none;
     margin-top: 2.5rem;
     font-size: 15px;
+    text-decoration: none;
 }
 .btn:hover{
     background-color: var(--negro);
@@ -255,8 +256,7 @@ body{
 .form-crear-cuenta fieldset{
     border: none;
 }
-.contenedor-campos{
-}
+
 .campos{
     margin-bottom: 2rem;
     display: flex;
@@ -295,6 +295,7 @@ body{
     border: none;
     margin: 1rem;    
     font-size: 16px;
+    text-decoration: none;
 }
 
 /**Termina Crear Cuenta**/
