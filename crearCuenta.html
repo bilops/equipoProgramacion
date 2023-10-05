@@ -5,37 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link rel="preload" href="css/style.css" as="style" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <title>Programacion</title>
+  </head>
 
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <header>
       <div class="encabezado">
         <section>
-          <img src="img/Logo_cut.jpg" alt="" />
-          <h1>Cuestionario Seguimiento de Egresados</h1>
+          <a href="index.html">
+            <img src="img/Logo_cut.jpg" alt="" />
+          </a>
+          <h1>Seguimiento de egresados</h1>
         </section>
         <div class="titulo">
-          <p>Crear Cuenta</p>
+          <p>Crear cuenta</p>
           <span></span>
         </div>
       </div>
     </header>
     <body>
-      <form class="form-crear-cuenta">
+      <form class="form-general">
         <fieldset>
           <div class="contenedor-campos">
             <div class="campos">
               <label for="">Nombre(s): </label>
-              <input class="input-text" type="text"  />
+              <input class="input-text" type="text" />
+            </div>
+            <div class="campos">
+              <label for="">Apellido paterno: </label>
+              <input class="input-text" type="text" />
+            </div>
+            <div class="campos">
+              <label for="">Apellido materno: </label>
+              <input class="input-text" type="text" />
             </div>
             <div class="campos">
               <label for="">Correo: </label>
               <input class="input-text" name="email" type="email" />
             </div>
             <div class="campos">
-              <label for="">Confirmar Correo: </label>
+              <label for="">Confirmar correo: </label>
               <input class="input-text" name="email" type="email" />
             </div>
             <div class="campos">
@@ -43,29 +56,41 @@
               <input class="input-text" name="password" type="password" />
             </div>
             <div class="campos">
-              <label for="">Confirmar Contraseña: </label>
+              <label for="">Confirmar contraseña: </label>
               <input class="input-text" name="password" type="password" />
             </div>
           </div>
           <div class="botones">
-            <input class="btn2" type="submit" value="Atras" href="inicio.html"/>
-            <input class="btn2" type="submit" value="Siguiente" href="inicio.html"/>
+            <input
+              class="btn2"
+              type="button"
+              onclick="location.href='index.html'"
+              value="Atras"
+            />
+            <input
+              class="btn2"
+              type="button"
+              onclick="location.href='index.html'"
+              value="Siguiente"
+            />
           </div>
         </fieldset>
       </form>
-    </body>
+    
 
-    <footer>
-      <div class="pie">
-        <section>
-          <img src="img/Logo_udg.png" alt="" width="90" />
-          <div>
-            <h4>Universidad de Guadalajara</h4>
-            <h4>Centro Universitario de Tonalá</h4>
-            <h4>Secretaría académica</h4>
-          </div>
-        </section>
-      </div>
-    </footer>
-  </head>
-</html>
+  
+      <footer>
+        <div class="pie">
+          <section>
+            <img src="img/Logo_udg.png" alt="" width="90" />
+            <div>
+              <h5>Universidad de Guadalajara</h5>
+              <h5>Centro Universitario de Tonalá</h5>
+              <h5>Secretaría académica</h5>
+            </div>
+          </section>
+        </div>
+      </footer>
+    </body>
+  </html>
+  
